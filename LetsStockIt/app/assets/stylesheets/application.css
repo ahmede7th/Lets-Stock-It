@@ -46,3 +46,54 @@ button {
   font-weight: 600;
   text-decoration: none;
 }
+
+.Stocks-header {
+  font-weight: 800;
+  font-size: 800%;
+}
+
+.Stocks-add-button {
+  height: 3%;
+  width: 5%;
+  margin-left: 2%;
+  font-weight: 800;
+  font-family: "Raleway", sans-serif;
+  border-radius: 6px;
+  text-align: center;
+  display: inline-block;
+}
+
+.Stocks-add-button:hover {
+  background-color: #1a1a1a;
+  color: #dedede;
+  border-style: solid;
+  border-color: #dedede;
+}
+
+.Stocks-contents-container {
+  margin-top: 10%;
+}
+
+.Stocks-listedStocks {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 350%;
+}
+
+.Stocks-delete-button {
+  background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 4px 2px;
+   border-radius: 50%;
+}
+
+.Stocks-delete-button:hover {
+  background-color: rgba(250,0,0,.6);
+  color: black;
+}

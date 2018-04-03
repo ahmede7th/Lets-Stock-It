@@ -10,6 +10,7 @@
   </head>
 
   <body>
+      <%= render 'partials/navbar.html.erb' %>
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
@@ -29,5 +30,6 @@
     </p>
 
     <%= yield %>
+    <%= render 'partials/footer.html.erb' %>
   </body>
 </html>

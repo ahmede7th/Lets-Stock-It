@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   get '/stocks/destroy'
   #, to: 'stocks#destroy'
 
+  get '/stocks/search', to: 'stocks#search'
+
 
   devise_for :users
 

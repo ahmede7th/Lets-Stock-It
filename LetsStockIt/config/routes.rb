@@ -1,4 +1,17 @@
 Rails.application.routes.draw do
+  get 'stocks/index'
+
+  get 'stocks/show'
+
+  get 'stocks/new'
+
+  get 'stocks/edit'
+
+  get '/stocks/destroy'
+  #, to: 'stocks#destroy'
+
+
   devise_for :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  #resources :stocks
 end

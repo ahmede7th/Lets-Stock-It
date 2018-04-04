@@ -37,3 +37,5 @@ def price
 
 end
 end
+
+#self - added because method is not tied to an object

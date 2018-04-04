@@ -1,26 +1,15 @@
-<nav >
- <div >
+<nav>
+     <a class="navBar" href="/">Lets Stock It</a>
 
-   <div>
+     <!-- <%= link_to('Home', root_path) %>
+     <%= link_to('About', static_about_path) %>
+     <%= link_to('Contact', static_contact_path) %>
+     <%= link_to('Log In', new_user_session_path) %>
+     <%= link_to('Sign Up', new_user_registration_path) %> -->
 
-     <a href="#">Lets Stock It</a>
-
-   </div>
-
-   <ul>
-
-     <li><%= link_to('Home', root_path) %></li>
-
-     <li><%= link_to('About', static_about_path) %></li>
-
-     <li><%= link_to('Contact', static_contact_path) %></li>
-
-     <li><%= link_to('Log In', new_user_session_path) %></li>
-
-     <li><%= link_to('Sign Up', new_user_registration_path) %></li>
-
-   </ul>
-
- </div>
-
+     <a class="navBar" href="/">Home</a>
+     <a class="navBar" href="/static/about">About</a>
+     <a class="navBar" href="/static/contact">Contact</a>
+     <a class="navBar" href="/users/sign_in">Log In</a>
+     <a class="navBar" href="/users/sign_up">Sign Up</a>
 </nav>

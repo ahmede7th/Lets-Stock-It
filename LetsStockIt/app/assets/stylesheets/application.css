@@ -29,7 +29,7 @@
 }
 
 a:hover {
-  color: #1A527F;
+  color: #24AF00;
 }
 
 input {
@@ -47,53 +47,17 @@ button {
   text-decoration: none;
 }
 
-.Stocks-header {
-  font-weight: 800;
-  font-size: 800%;
+nav {
+  margin-bottom: 2%;
 }
 
-.Stocks-add-button {
-  height: 3%;
-  width: 5%;
-  margin-left: 2%;
-  font-weight: 800;
-  font-family: "Raleway", sans-serif;
-  border-radius: 6px;
-  text-align: center;
-  display: inline-block;
-}
-
-.Stocks-add-button:hover {
-  background-color: #1a1a1a;
-  color: #dedede;
-  border-style: solid;
-  border-color: #dedede;
-}
-
-.Stocks-contents-container {
-  margin-top: 10%;
-}
-
-.Stocks-listedStocks {
-  display: inline-block;
+.navBar {
+  margin-left: 1%;
   font-weight: 400;
-  font-size: 350%;
+  font-family: "Raleway", sans-serif;
+  font-size: 150%;
 }
 
-.Stocks-delete-button {
-  background-color: #4CAF50;
-   border: none;
-   color: white;
-   padding: 20px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 20px;
-   margin: 4px 2px;
-   border-radius: 50%;
-}
-
-.Stocks-delete-button:hover {
-  background-color: rgba(250,0,0,.6);
-  color: black;
+.navBar:hover {
+  font-weight: 800;
 }

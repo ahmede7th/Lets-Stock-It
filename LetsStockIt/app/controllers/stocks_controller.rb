@@ -1,6 +1,5 @@
 class StocksController < ApplicationController
   def index
-
   end
 
   def show
@@ -23,7 +22,7 @@ class StocksController < ApplicationController
     end
 
     if @stock
-      render partial:'lookup'
+      render partial:'search'
     else
       render status: :not_found, nothing: true
     end

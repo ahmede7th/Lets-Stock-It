@@ -2,9 +2,9 @@ Rails.application.routes.draw do
 
   root 'static#home'
 
-  get 'static/about', to: 'static#about'
+  get 'static/about'
 
-  get 'static/contact', to: 'static#contact'
+  get 'static/contact'
 
   get 'stocks/index'
 
@@ -15,9 +15,9 @@ Rails.application.routes.draw do
   get 'stocks/edit'
 
   get '/stocks/destroy'
-  #, to: 'stocks#destroy'
 
   get 'stocks/profile', to: 'users#profile'
+
 
   get '/stocks/search', to: 'stocks#search'
 

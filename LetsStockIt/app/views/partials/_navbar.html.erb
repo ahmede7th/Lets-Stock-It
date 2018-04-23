@@ -1,5 +1,5 @@
 <nav>
-     <a class="navBar" href="/">Lets Stock It</a>
+     <!-- <a class="navBar" href="/">Lets Stock It</a> -->
 
      <!-- <%= link_to('Home', root_path) %>
      <%= link_to('About', static_about_path) %>
@@ -10,6 +10,11 @@
      <a class="navBar" href="/">Home</a>
      <a class="navBar" href="/static/about">About</a>
      <a class="navBar" href="/static/contact">Contact</a>
+     <%if current_user%><a class="navBar" href="/stocks/profile">Profile</a>
+     <% end %>
+     <!-- <a class="navBar" href="/stocks/profile">Profile</a> -->
      <a class="navBar" href="/users/sign_in">Log In</a>
      <a class="navBar" href="/users/sign_up">Sign Up</a>
+
 </nav>
+<%= render 'partials/search' %>

@@ -1,0 +1,12 @@
+<div id="stock-lookup">
+  <h3>SEARCH.html</h3><br>
+  <h1>Stock <%= @stock.company_name %> <h1> <br>
+    <h1> <%= @stock.calculation_price %> <h1><br>
+      <h1> <%= @stock.open %> <h1><br>
+        <h1> <%= @stock.open_time %> <h1><br>
+          <% if @stock %>
+          <div>
+            <%= link_to 'Add to my Stocks', stocks_profile_path(user: current_user), class: 'btn btn–xs btn–success', method: :post %>
+          <%=  button_tag "Checkout", data: { disable_with: "Please wait..." }%>
+          <% end %>
+</div>

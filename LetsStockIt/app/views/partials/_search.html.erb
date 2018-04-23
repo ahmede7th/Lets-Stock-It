@@ -1,6 +1,4 @@
 <div id="stock-lookup">
-  <h3>Search for Stocks</h3>
-
   <%= form_tag stocks_search_path, remote: true, method: :get, id: 'stock-lookup-form' do %>
 
      <div class="form-group row no-padding text-center col-md-12">
@@ -15,24 +13,14 @@
 
             <%= button_tag(type: :submit, class: 'btn btn-lg btn-success') do %>
 
-                 <i class='fa fa-search'></i> Look up a stock
+                 <i class='fa fa-search'>Look up a stock</i>
 
             <% end %>
 
        </div>
-
 </div>
 
 <% end %>
 
-<% if @stock %>
-<div>
-        <strong>Symbol:</strong> <%= @stock.ticker %>
-
-         <strong>Name:</strong> <%= @stock.name %>
-
-         <strong>Price:</strong> <%= @stock.price %>
-</div>
-<% end %>
 
 </div>
